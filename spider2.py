@@ -6,6 +6,7 @@ import logging
 import re
 from urllib.parse import urljoin
 import multiprocessing
+from pyquery import PyQuery as pq
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s: %(message)s')
